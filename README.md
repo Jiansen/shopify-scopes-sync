@@ -9,7 +9,7 @@ The `shopify-scopes-sync` package ensures that the Shopify access scopes specifi
 
 ## Background: Authentication Works In Local Dev Mode But Not In Production (AWS EC2)
 
-When deploying a Shopify Remix App from local testing to AWS EC2, authentication and billing APIs stopped working even though it ran fine on a local machine. If you encountered a similiar issue as descripbed at [Shopify Community](https://community.shopify.com/c/authentication-and-access/remix-authentication-works-in-local-dev-mode-but-not-in/td-p/2417145) and [Shopify Github](https://github.com/Shopify/shopify-app-template-remix/issues/529), the root cause might be the API access scopes are out of sync in the `.env` file (production deploy) and the `shopify.app.toml` (local test).  This problem led to creating a solution to sync scopes smoothly.
+At [Site Chat](http://www.site-chat.com/), we wrapped our site and service into a Shopify App using its Remix template. When migrating from local testing to AWS EC2, authentication and billing APIs stopped working, even though they ran fine on a local machine. If you've encountered a similar issue as described on [Shopify Community](https://community.shopify.com/c/authentication-and-access/remix-authentication-works-in-local-dev-mode-but-not-in/td-p/2417145) and [Shopify Github](https://github.com/Shopify/shopify-app-template-remix/issues/529), the root cause might be that the API access scopes are out of sync in the `.env` file (production deployment) and the `shopify.app.toml` (local test).  This problem led to the creation of a solution to smoothly sync scopes.
 
 ## Installation
 
