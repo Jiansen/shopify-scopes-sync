@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Syncs Shopify access scopes from app.toml to .env",
     "main": "src/index.js",
+    "bin": {
+      "shopify-scopes-sync": "./src/index.js"
+    },
     "scripts": {
       "test": "mocha"
     },
