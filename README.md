@@ -7,6 +7,10 @@
 
 The `shopify-scopes-sync` package ensures that the Shopify access scopes specified in your project's `shopify.app.toml` file are automatically synchronized with the `SCOPES` variable in your `.env` file. This synchronization helps maintain consistency in your development and deployment environments, reducing the risk of scope-related errors in your Shopify applications.
 
+## Background: Authentication Works In Local Dev Mode But Not In Production (AWS EC2)
+
+When deploying a Shopify Remix App from local testing to AWS EC2, authentication and billing APIs stopped working even though it ran fine on a local machine. If you encountered a similiar issue as descripbed at [Shopify Community](https://community.shopify.com/c/authentication-and-access/remix-authentication-works-in-local-dev-mode-but-not-in/td-p/2417145) and [Shopify Github](https://github.com/Shopify/shopify-app-template-remix/issues/529), the root cause might be the API access scopes are out of sync in the `.env` file (production deploy) and the `shopify.app.toml` (local test).  This problem led to creating a solution to sync scopes smoothly.
+
 ## Installation
 
 To install `shopify-scopes-sync`, run the following command in your project directory:
