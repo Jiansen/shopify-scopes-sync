@@ -1,0 +1,21 @@
+{
+    "name": "shopify-scopes-sync",
+    "version": "1.0.0",
+    "description": "Syncs Shopify access scopes from app.toml to .env",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "dependencies": {
+        "dotenv": "16.4.1",
+        "@iarna/toml": "2.2.5"
+    },
+    "devDependencies": {
+        "mocha": "^8.2.1"
+    },
+    "homepage": "https://github.com/Jiansen/shopify-scopes-sync",
+    "keywords": ["shopify", "scopes", "sync", "env", "toml"],
+    "author": "Jiansen",
+    "license": "MIT"
+}
+  
