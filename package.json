@@ -1,6 +1,6 @@
 {
     "name": "shopify-scopes-sync",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Syncs Shopify access scopes from app.toml to .env",
     "main": "src/index.js",
     "bin": {
