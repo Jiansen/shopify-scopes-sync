@@ -1,3 +1,7 @@
+[![npm monthly downloads](https://img.shields.io/npm/dm/match-js.svg?style=flat)](https://www.npmjs.com/package/shopify-scopes-sync)
+[![current version](https://img.shields.io/npm/v/match-js.svg?style=flat)](https://www.npmjs.com/package/shopify-scopes-sync)
+[![npm](https://img.shields.io/npm/l/shopify-scopes-sync.svg?maxAge=2592000)](https://www.npmjs.com/package/shopify-scopes-sync)
+
 
 # Shopify Scopes Sync
 
@@ -60,8 +64,8 @@ Replace `./path/to/.env` and `./path/to/shopify.app.toml` with the actual paths 
 
 ## Contributing
 
-We welcome contributions to `shopify-scopes-sync`! If you have suggestions for improvements or encounter any issues, please open an issue or submit a pull request on our [GitHub repository](https://github.com/your-github-repo/shopify-scopes-sync).
+We welcome contributions to `shopify-scopes-sync`! If you have suggestions for improvements or encounter any issues, please open an issue or submit a pull request on our [GitHub repository](https://github.com/Jiansen/shopify-scopes-sync).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jiansen/shopify-scopes-sync/blob/main/LICENSE) file for details.
