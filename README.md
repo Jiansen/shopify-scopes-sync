@@ -20,7 +20,13 @@ npm install shopify-scopes-sync --save
 ```
 or
 ```bash
-yarn add shopify-scopes-sync -D -W
+yarn add shopify-scopes-sync
+```
+
+```
+  "dependencies": {
+    "shopify-scopes-sync": "1.0.3",
+  },
 ```
 
 This command adds `shopify-scopes-sync` to your project's dependencies.
