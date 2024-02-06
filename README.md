@@ -12,7 +12,7 @@ npm install shopify-scopes-sync --save
 ```
 or
 ```bash
-yarn add shopify-scopes-sync
+yarn add shopify-scopes-sync -D -W
 ```
 
 This command adds `shopify-scopes-sync` to your project's dependencies.
@@ -22,13 +22,13 @@ This command adds `shopify-scopes-sync` to your project's dependencies.
 After installing `shopify-scopes-sync`, you need to add a script to your `package.json` to run the synchronization process. Here's how to set it up:
 
 1. Open your project's `package.json` file.
-2. Add a new script named `sync-scopes` in the `scripts` section:
+2. Add a new script named `predeploy` in the `scripts` section:
 3. Update your `deploy` command to ensure that scope is synced.
 
 ```json
 "scripts": {
-  "sync-scopes": "shopify-scopes-sync",
-  "deploy": "npm run sync-scopes && shopify app deploy",
+  "predeploy": "shopify-scopes-sync",
+  "deploy": "npm run predeploy && shopify app deploy",
 }
 ```
 
