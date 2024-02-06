@@ -1,5 +1,5 @@
-[![npm monthly downloads](https://img.shields.io/npm/dm/match-js.svg?style=flat)](https://www.npmjs.com/package/shopify-scopes-sync)
-[![current version](https://img.shields.io/npm/v/match-js.svg?style=flat)](https://www.npmjs.com/package/shopify-scopes-sync)
+[![npm monthly downloads](https://img.shields.io/npm/dm/shopify-scopes-sync.svg?style=flat)](https://www.npmjs.com/package/shopify-scopes-sync)
+[![current version](https://img.shields.io/npm/v/shopify-scopes-sync.svg?style=flat)](https://www.npmjs.com/package/shopify-scopes-sync)
 [![npm](https://img.shields.io/npm/l/shopify-scopes-sync.svg?maxAge=2592000)](https://www.npmjs.com/package/shopify-scopes-sync)
 
 
